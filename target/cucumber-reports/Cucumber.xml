@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="43.641871">
+<testcase classname="Importing SmartCredit Report provider" name="SmartCredit report Importing Validation" time="43.641871">
+<system-out><![CDATA[Given user open Browser.....................................................passed
+Then user is on login page..................................................passed
+When user enter username and password.......................................passed
+Then user click on Login button.............................................passed
+Then user is on Home Page And validate title................................passed
+When user click on Add newClient Button.....................................passed
+Then user is on Add NewClient page..........................................passed
+When user enter firstname and lastname......................................passed
+When user click on client has no email......................................passed
+When user click on submit button............................................passed
+Then user should see warning message........................................passed
+When user click on ok button................................................passed
+Then user should see Client Dashboard page..................................passed
+When user click on 1-click import and audit.................................passed
+Then user should see Enter&confirm credit monitoring access details page....passed
+When user click on dropdown and select SmartCredit..........................passed
+When user enter username and password and security word.....................passed
+When user click on import run and simple audit..............................passed
+]]></system-out>
+</testcase>
+</testsuite>

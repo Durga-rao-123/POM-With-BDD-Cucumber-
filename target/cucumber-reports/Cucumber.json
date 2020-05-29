@@ -1,0 +1,244 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "SmartCredit report Importing Validation",
+        "description": "",
+        "id": "importing-smartcredit-report-provider;smartcredit-report-importing-validation",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10686050500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user open Browser",
+            "match": {
+              "location": "SmartCredit_Steps.user_open_Browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 69054700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on login page",
+            "match": {
+              "location": "SmartCredit_Steps.user_is_on_login_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 571853200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter username and password",
+            "match": {
+              "location": "SmartCredit_Steps.user_enter_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 127072100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user click on Login button",
+            "match": {
+              "location": "SmartCredit_Steps.user_click_on_Login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9295197400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user is on Home Page And validate title",
+            "match": {
+              "location": "SmartCredit_Steps.user_is_on_Home_Page_And_validate_title()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1817080100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user click on Add newClient Button",
+            "match": {
+              "location": "SmartCredit_Steps.user_click_on_Add_newClient_Button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3996627700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user is on Add NewClient page",
+            "match": {
+              "location": "SmartCredit_Steps.user_is_on_Add_NewClient_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 599175300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user enter firstname and lastname",
+            "match": {
+              "location": "SmartCredit_Steps.user_enter_firstname_and_lastname()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 188279500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user click on client has no email",
+            "match": {
+              "location": "SmartCredit_Steps.user_click_on_client_has_no_email()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 552515400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user click on submit button",
+            "match": {
+              "location": "SmartCredit_Steps.user_click_on_submit_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 52078200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user should see warning message",
+            "match": {
+              "location": "SmartCredit_Steps.user_should_see_warning_message()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3511546500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user click on ok button",
+            "match": {
+              "location": "SmartCredit_Steps.user_click_on_ok_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6100482700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user should see Client Dashboard page",
+            "match": {
+              "location": "SmartCredit_Steps.user_should_see_Client_Dashboard_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1073158000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user click on 1-click import and audit",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 14
+                }
+              ],
+              "location": "SmartCredit_Steps.user_click_on_click_import_and_audit(int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3887261800,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user should see Enter\u0026confirm credit monitoring access details page",
+            "match": {
+              "location": "SmartCredit_Steps.user_should_see_Enter_confirm_credit_monitoring_access_details_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 451133400,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user click on dropdown and select SmartCredit",
+            "match": {
+              "location": "SmartCredit_Steps.user_click_on_dropdown_and_select_SmartCredit()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 581267500,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user enter username and password and security word",
+            "match": {
+              "location": "SmartCredit_Steps.user_enter_username_and_password_and_security_word()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 82037400,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user click on import run and simple audit",
+            "match": {
+              "location": "SmartCredit_Steps.user_click_on_import_run_and_simple_audit()"
+            },
+            "keyword": "When "
+          }
+        ]
+      }
+    ],
+    "name": "Importing SmartCredit Report provider",
+    "description": "",
+    "id": "importing-smartcredit-report-provider",
+    "keyword": "Feature",
+    "uri": "SmartCredit_Feature/SmartCredit.feature"
+  }
+]

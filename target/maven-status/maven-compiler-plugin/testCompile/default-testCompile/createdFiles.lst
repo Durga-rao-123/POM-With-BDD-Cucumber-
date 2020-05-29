@@ -1,0 +1,13 @@
+com\IdentityClub\Login_IdClub_Page.class
+com\IdentityIQ\HomePage.class
+com\IdentityClub\CreditMonitoringAccessDetails_idclub_page.class
+com\IdentityIQ\CreditMonitoringAccessDetails_Idiq_page.class
+com\utilPackage\BaseClass.class
+testRunner\RunnerLoginTest.class
+identityiq_Step\Idiq_Steps.class
+com\IdentityIQ\AddNewClient_Idiq_Page.class
+com\IdentityClub\HomePage_Idclub_page.class
+com\IdentityClub\AddNewClient_idclub_page.class
+com\IdentityClub\ClientDashboard_idclub_page.class
+com\IdentityIQ\Login_Idiq_Page.class
+com\IdentityIQ\ClientDashboard_Idiq_page.class
